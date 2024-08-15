@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hello! I'm Wilde Chu, an undergraduate senior at RPI, majoring in Computer Science and Math.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I'm studying to be a software engineer with a strong interest in Computer Graphics. I also enjoy pure mathematics, currently Abstract Algebra and Topology.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+In my spare time you can find me cooking, gaming, learning random trivia through osmosis, or working on one of my numerous unfinished CS projects. 
