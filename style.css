@@ -1,9 +1,11 @@
 :root {
+    /* color-scheme: light dark; */
     background: linear-gradient(#140655, #2a0a56);
     color: #fea7a0;
     padding: 20px calc(30% - 100px);
     height: calc(100% - 40px);
     font-family: system-ui, sans-serif;
+    font-size: 18px;
     /* overflow: hidden; */
 }
 
@@ -13,12 +15,11 @@ header {
 }
 
 header a {
+    text-decoration: none;
     text-align: center;
     padding: 12px 20px;
-    text-decoration: none;
     font-size: 18px;
     line-height: 25px;
-    color: inherit;
     font-weight: 600;
 }
 
@@ -31,6 +32,24 @@ nav {
     float: right;
 }
 
+nav a {
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: #b53da1;
+    text-decoration-thickness: 2px;
+}
+
+main {
+    padding: 5px 50px;
+}
+
+a.project-link {
+    font-size: 20px;
+}
 
 @media screen and (max-width: 770px) {
     :root {

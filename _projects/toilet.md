@@ -1,0 +1,11 @@
+---
+layout: project
+title: Restroom Finder
+---
+
+This website displays a map of restrooms known in the database, giving users a name, location, rating and reviews. Users can contribute to it by adding locations or editing existing ones.
+
+The frontend uses React and Vite, with Leaflet with OSM as the map library.
+The app communicates with a server using Node and Express, which interacts with an SQL database that stores information in 3 tables, Location, Restrooms, and Reviews.
+
+You can find the React App [here](https://github.com/wildechu23/Toilet) and the server [here](https://github.com/wildechu23/Toilet-Server).

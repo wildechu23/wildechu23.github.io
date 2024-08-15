@@ -1,12 +1,12 @@
 ---
-layout: default
+layout: page
 title: Projects
 permalink: /projects
 ---
 
 {% for project in site.projects %}
 <p>
-  <a href="{{ project.url }}">{{ project.title }}</a>
+  <a href="{{ project.url }}" class="project-link">{{ project.title }}</a>
   <br>
 </p>
 {% endfor %}

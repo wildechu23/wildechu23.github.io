@@ -5,10 +5,31 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wildechu23.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  wildechu23
 
+author:
+  name: Wilde Chu
+  contacts:
+  - name: Email
+    url: mailto:wildechu23@gmail.com
+    handle: wildechu23@gmail.com
+  - name: Github
+    url: http://github.com/wildechu23
+    handle: wildechu23
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/wilde-chu-310175294/
+    handle: Wilde Chu
+
 # Build settings
 plugins:
   - jekyll-feed
   - jekyll-sitemap
 
 collections:
-  - projects
+  projects:
+    output: true
+
+defaults:
+  - scope:
+      path: ''
+      type: pages
+    values:
+      permalink: /:title
