@@ -2,14 +2,17 @@
     /* color-scheme: light dark; */
     background: linear-gradient(#140655, #2a0a56);
     color: #fea7a0;
-    padding: 20px calc(30% - 100px);
-    height: calc(100% - 40px);
+    margin: 0px auto;
+    max-width: 700px;
+    height: 100%;
     font-family: system-ui, sans-serif;
     font-size: 18px;
+    line-height: 1.6;
     /* overflow: hidden; */
 }
 
 header {
+    color: #d26d79;
     padding: 20px;
     border-bottom: 1px solid #ffd4b9;
 }
@@ -38,24 +41,43 @@ nav a {
 
 a {
     color: inherit;
-    text-decoration: underline;
     text-decoration-color: #b53da1;
     text-decoration-thickness: 2px;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 main {
     padding: 5px 50px;
 }
 
+h1 {
+    text-align: center;
+}
+
 a.project-link {
     font-size: 20px;
 }
 
-@media screen and (max-width: 770px) {
+.project-entry {
+    padding: 10px;
+}
+
+.project-entry small{
+    float: right;
+}
+
+li {
+    padding: 5px;
+}
+
+/* @media screen and (max-width: 770px) {
     :root {
         padding: 20px;
     }
-}
+} */
 
 @media screen and (max-width: 550px) {
     header a {

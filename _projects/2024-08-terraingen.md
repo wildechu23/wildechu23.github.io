@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Terrain Generation
+date: August 2024
 ---
 
 A prodedural terrain generator written in Typescript using WebGPU, as a demonstration of the Marching Cubes algorithm.

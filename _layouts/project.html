@@ -2,8 +2,19 @@
 layout: default
 ---
 
+<style>
+    h1 {
+        margin-bottom: 10px;
+    }
+    small {
+        display: block;
+        text-align: center;
+    }
+</style>
+
 <article>
     <h1>{{ page.title }}</h1>
+    <small>{{ page.date | date: "%B %Y" }}</small>
     {{ content }}
 </article>
 <br>
